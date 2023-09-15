@@ -60,6 +60,7 @@ a {
 }
 
 ul {
+    position: fixed;
     list-style: none;
     padding-inline-start: 0;
     background: #E4F9F5;
@@ -106,18 +107,20 @@ hr {
 }
 
 .header-content {
+    margin-bottom: 60px;
 }
 
 .left-part {
     position: absolute;
-    top: 30px;
-    left: 80px;
-    z-index: 1000;
     display: flex;
     align-items: center;
 }
 
 .logo {
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    z-index: 1000;
 }
 
 .visually-hidden {
